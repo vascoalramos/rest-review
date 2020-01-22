@@ -1,18 +1,17 @@
-# RestReview (CLIENT + REST API)
+# RestReview (Client + Rest API)
 **Rest Review**: A platform that enables users to search and review restaurants.
 
 * The REST API is available at **https://jmarques.pythonanywhere.com/**. 
 * The Angular Interface is available at **https://rest-review.herokuapp.com**.
 
-## IMPLEMENTED FEATURES
+## Implemented Features
 
-### API'S PROJECT
+### API's Project
 * **Django Models**: We used django models to create and model entities into a database. Regarding entity relations, we implemented N:M, N:1 and 1:1 relations;
-* **Django Forms**: We implemented all the forms of our web application using Django Forms, since they provide an easier way of accessing data;
 * **Django Authentication**: The mechanisms provided by Django Authentication were widely used to allow different users to log in into your web application;
 * **Django Authorization**: We decided to restrict some areas of our service to specific groups of users. This being said, we use Django Authorization mechanisms to make sure that only the allowed users could perform certain operations. For instance, a regular user can see restaurants and even submit reviews, but cannot create a new restaurant or edit the information of an existent restaurant. Such operation can only be done by the restaurant's owner.
 
-### ANGULAR PROJECT
+### Angular Project
 * **Components**: We used components for every view and all the logic associated with it;
 * **Data Binding**: Mostly for showing persistent data, we used data binding;
 * **Directives**: Directives were used for providing additional behavior for DOM elements;
@@ -22,16 +21,16 @@
 * **Bootstrap**: Bootstrap is used as a style tool for the interface;
 * **Observables**: For dealing with asynchronous programming, we used observables;
 
-## HOW TO RUN
+## How to Run
 1. Delete the database, if it's already created;
 2. Build the database;
 3. Create a superuser;
 4. Run both project;
 5. Once the project is running, access to `/reload_database` in the rest api to populate te database with some default data.
 
-## ACCESSES
+## Accesses
 
-### CLIENT
+### Client
 
 | Username  | Password |
 | ------------- | ------------- |
@@ -39,7 +38,7 @@
 | client2@ua.pt  | client2  |
 | client3@ua.pt  | client3  |
 
-### OWNER
+### Owner
 
 | Username  | Password |
 | ------------- | ------------- |
@@ -47,7 +46,7 @@
 | owner2@ua.pt  | owner2  |
 | owner3@ua.pt  | owner3  |
 
-## FEATURES
+## Features
 
 **/reload_database** : Clean and put the database default data
 
@@ -88,6 +87,6 @@
 * The location of each restaurant in the detail page is done using google maps api.
 * In each edit feature (restaurant, client and owner) it's also possible to eliminate the object (restaurant, object, owner). This action will also remove all related entries in other tables of the database.
 
-## AUTHORS
-* Vasco Ramos | nmec 88931
-* João Marques | nmec 89234
+## Authors
+* **Vasco Ramos:** [vascoalramos](https://github.com/vascoalramos)
+* **João Marques:** [joao-p-marques](https://github.com/joao-p-marques)

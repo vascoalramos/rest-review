@@ -90,3 +90,6 @@
 ## Authors
 * **Vasco Ramos:** [vascoalramos](https://github.com/vascoalramos)
 * **João Marques:** [joao-p-marques](https://github.com/joao-p-marques)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -62,9 +62,9 @@
 
 **/list-restaurants**: Listing of all restaurants with the ability to search for specific restaurants, restaurants in a city, or order the results by some characteristics
 
-**/owner/<name>**: Access the public profile of some given owner
+**/owner/{name}**: Access the public profile of some given owner
 
-**restaurant/<number>**: See all the information of a given restaurant (info, reviews, location, owner, etc)
+**/restaurant/{number}**: See all the information of a given restaurant (info, reviews, location, owner, etc)
 
 #### All the following features require a previous login:
 
@@ -76,7 +76,7 @@
 
 **/my-restaurants**: Access all the restaurants a loged owner has (only owners can do this)
 
-**edit-restaurant/<number>**: Edit information of a given restaurant (only the owner of that restaurant can do this)
+**/edit-restaurant/{number}**: Edit information of a given restaurant (only the owner of that restaurant can do this)
 
 **my-favorites**: Access the user favorites' restaurants (only a client can do this and each client can only access his own favorites list)
 
